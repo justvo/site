@@ -1,0 +1,22 @@
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center; 
+    background-color: none
+    ;
+}
+nav il{
+    margin: 0 20px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+
+    padding: 0 30px;
+
+}
