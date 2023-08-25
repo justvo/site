@@ -1,43 +1,76 @@
-header h1{
-    display: inline-block;
-    margin-left: 30px;
-    
-   
-  }
-  .white-text{
-    color: white;
-  }
-  .thin-text{
-    font-weight: 50;
-  }
-  .rectangle{
-      position: absolute;
-      top:0;
-       
-      transform: translateX(-20%);
-      width: 100%;
-      height: 20%;
-      background: linear-gradient(to bottom, #008000, #ADFF2F); 
-      z-index: -1; 
-  }
-  nav ul{
-      list-style: none;
-      padding: 0;
-      display: flex;
-      align-items: center; 
-      background-color: none;
-  }
-  nav il{
-      margin: 0 20px;
-      padding: 0 20px;
-      display: flex;
-      align-items: center;
-  
-  }
-  nav a{
-      text-decoration: none;
-      color: black;
-  
-      padding: 0 30px;
-  
-  }
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+
+  background: linear-gradient(to bottom, #008000, #ADFF2F);
+  padding: 33px  35px;
+  font-size: 33px;
+  font-weight: 200;
+  line-height: 14.16px;
+  letter-spacing: 1.3px;
+  color: #ffffff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  background-color: none;
+}
+
+
+
+nav a {
+  text-decoration: none;
+  padding: 20px 30px;
+
+}
+
+main,
+nav a {
+  color: green;
+}
+
+
+.anothe-color::first-line {
+  color: limegreen;
+}
+
+.first {
+  padding: 10px 0 10px 50%;
+  background-color: #EEEEEE;
+}
+
+.conteiner {
+  display: flex;
+}
+
+.paragraph {
+  flex: 1;
+  margin-right: 20px;
+
+}
+
+/* .imagecolom {} */
+
+.side {
+  flex: 1;
+    margin-left: 10px;
+}
+
+hr{
+   border-style: solid;
+   border-radius: 10px;
+   border-width: 1px;
+   color: #EEEEEE;
+}
+
+.bottomLine{
+
+   border-width: 2px;
+}
+.foot{
+  text-size: 3px;
+}
