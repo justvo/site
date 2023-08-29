@@ -1,36 +1,79 @@
-* {
-  font-family: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap');
+
+*{
+  width: calc(100% - 5%);
+  margin: auto;
+  padding: auto;
 }
 
-header h1 {
+main,footer{
+  font-size: 12px ;
+}
 
+header{
   background: linear-gradient(to bottom, #008000, #ADFF2F);
-  padding: 33px  35px;
-  font-size: 33px;
-  font-weight: 200;
-  line-height: 14.16px;
-  letter-spacing: 1.3px;
+
+}
+header h1 {
+  font-family: 'Roboto', sans-serif;
   color: #ffffff;
 }
+
+h1{
+  padding: 33px  35px;
+  font-size: 33px;
+  font-weight: 100;
+  line-height: 14.16px;
+  letter-spacing: 1.3px;
+  
+}
+.Lab{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
 
 nav ul {
   list-style: none;
   display: flex;
   align-items: center;
   background-color: none;
+  margin-top: 30px; 
+  margin-bottom: 30px;
+  
 }
-
-
-
 nav a {
   text-decoration: none;
-  padding: 20px 30px;
-
+  font-size: 20px;
 }
 
 main,
 nav a {
   color: green;
+} 
+
+.navim{
+  margin: 0 10px ;
+  width: 11%;
+}
+.first {
+  display: flex;
+  background-color: #EEEEEE;
+  width: 100%;
+}
+
+.first h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+
+}
+.fistimg{
+  flex: 1;
+}
+
+.text1{
+  flex: 2;
+  padding: 0 10% 0 0;
 }
 
 
@@ -38,27 +81,51 @@ nav a {
   color: limegreen;
 }
 
-.first {
-  padding: 10px 0 10px 50%;
-  background-color: #EEEEEE;
+.padforfirst{
+  padding: 0  10%;
+
 }
+.arrow1{
+  max-width: 2%;
+  padding: 0 0 0 2%;
+  margin-top: 20px;
+
+}
+
 
 .conteiner {
   display: flex;
+  justify-content: space-between;
 }
 
 .paragraph {
   flex: 1;
   margin-right: 20px;
-
+  border-right: 2px solid #EEEEEE; /* Ширина, стиль та колір лінії */
+  padding-right: 10px; /* Додатковий відступ зліва від абзацу */
 }
 
-/* .imagecolom {} */
-
-.side {
+.blockpar {
   flex: 1;
-    margin-left: 10px;
+  display: flex;
+  flex-direction: column;
 }
+
+.block1,
+.block2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.block1 img,
+.block2 img {
+  max-width: 150px;
+  margin-right: 10px;
+}
+
+
+
 
 hr{
    border-style: solid;
@@ -68,6 +135,5 @@ hr{
 }
 
 .bottomLine{
-
    border-width: 2px;
 }
