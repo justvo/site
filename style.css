@@ -1,16 +1,21 @@
-* {
-  font-family: 'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i");
+
+header {
+  margin: 0 15%;
+  padding: 20px 0 20px 40px;
+  background: linear-gradient(to bottom, #769715, #99cc01);
+  color: rgb(255, 255, 255);
 }
 
-header h1 {
-
-  background: linear-gradient(to bottom, #008000, #ADFF2F);
-  padding: 33px  35px;
-  font-size: 33px;
-  font-weight: 200;
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+  font-size: 42px;
   line-height: 14.16px;
   letter-spacing: 1.3px;
-  color: #ffffff;
+}
+span.boldText {
+  font-weight: 900;
 }
 
 nav ul {
@@ -18,56 +23,91 @@ nav ul {
   display: flex;
   align-items: center;
   background-color: none;
+  margin: 30px 15% ;
 }
-
-
-
-nav a {
+li {
+  width: 100%;
+}
+li a {
   text-decoration: none;
-  padding: 20px 30px;
-
 }
-
-main,
-nav a {
-  color: green;
+a{
+    color: #264d1e;
+    font-size: 20px;
 }
-
-
-.anothe-color::first-line {
-  color: limegreen;
+main
+ {
+  font-size: 13px;
+  color: #264d1e;
 }
-
-.first {
-  padding: 10px 0 10px 50%;
-  background-color: #EEEEEE;
+h2{
+     font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 5px;
 }
-
-.conteiner {
+.firstBlock {
   display: flex;
+  max-height: 300px;
+  margin: 0 15%;
+  background-color: #eff1fd;
 }
+.firstImg {
+  margin: 20px 0 10px 50px ;
+  min-height: 90px ;
+  min-width: auto;
 
-.paragraph {
+
+}
+.textBlock h1{
   flex: 1;
-  margin-right: 20px;
-
+  margin-top: 50px;
+}
+.firstPar {
+  margin: 50px  70px 0 70px;
+}
+.blockParag::first-line {
+  color: #80a60f;
+  font-size: 15px;
+}
+.mainBlock{
+    margin:20px 10% 10px 10% ;
 }
 
-/* .imagecolom {} */
-
-.side {
-  flex: 1;
-    margin-left: 10px;
+aside{
+    border-right:2px solid #efeffb  ;
+    margin: 0 30px 20px 100px;
+    padding-right:30px  ;
+    width: 30%;
+    float: left;
+}
+.rightBlock{
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px ;
+}
+.topBlock,
+.bottomBlock{
+    display: flex;
+    margin-right: 10px;
+}
+.topBlock{
+    border-bottom: 2px solid #efeffb;
 }
 
-hr{
-   border-style: solid;
-   border-radius: 10px;
-   border-width: 1px;
-   color: #EEEEEE;
+.textWithImg{
+    margin: 0 0 5px 30px;
 }
+.imgsBlockRight{
 
-.bottomLine{
-
-   border-width: 2px;
+    margin: 20px;
+    max-height: 94px;
+    width: auto;
+    
+}
+footer{
+    padding-top: 10px ;
+    margin: 20px 15% 30px  15%;
+    border-top:  4px solid #efeffb;
+    font-size: 10px;
 }
