@@ -105,6 +105,7 @@ text-for-first{
   display: flex;
   align-items: center; 
   margin: 0 auto;
+  padding: 10px 0;
 }
 .topBlock {
   border-bottom: 2px solid #efeffb;
