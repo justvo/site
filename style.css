@@ -112,16 +112,9 @@ text-for-first{
 .img-for-blocks{
   margin-right: 10px;
   flex: 0 0 40%;
-  max-width: 60%;
+  max-width: 40%;
 }
-.textWithImg {
-  margin: 0 0 5px 30px;
-}
-.imgsBlockRight {
-  margin: 20px;
-  max-height: 94px;
-  width: auto;
-}
+
 .foot {
   margin-left: 30px;
   border-top: 4px solid #efeffb;
@@ -152,7 +145,7 @@ text-for-first{
   .bottomBlock,
   .left-text,
   .topBlock{
-    flex:1;
+
     border-right: none;
     padding-bottom: 10px;
     border-bottom: 4px solid #efeffb;
