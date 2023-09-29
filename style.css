@@ -59,6 +59,7 @@ html{
 .firstImg {
   flex: 0 0 40%;
   max-width: 60%;
+  object-fit: contain;
 }
 text-for-first{
   flex:1;
