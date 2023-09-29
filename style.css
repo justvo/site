@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i");
 html{
-  margin: 30px 15%;
+  margin: 1% 5%;
 }
 .header {
   margin: 0;
@@ -12,7 +12,7 @@ html{
 .head-text-style {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
-  font-size: 3.7vw;;
+  font-size: clamp(24px, 3.7vw, 42px);
   line-height: 14.16px;
   letter-spacing: 1.3px;
 }
@@ -42,10 +42,10 @@ html{
 .item-a {
   text-decoration: none;
   color: #264d1e;
-  font-size: 2vw;
+  font-size:clamp(17px, 2vw, 26px);
 }
 .main-container {
-  font-size: 1.2vw;
+  font-size: clamp(12px, 1.2vw, 17px);
   color: #264d1e;
 }
 
@@ -69,7 +69,7 @@ text-for-first{
 
 .blockParag::first-line {
   color: #80a60f;
-  font-size: 1.5vw;
+  font-size: clamp(14px, 1.5vw, 19px);
 }
 
 .container-of-blocks{
@@ -81,7 +81,7 @@ text-for-first{
 .paragraph-heading {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 2vw;
+  font-size: clamp(17px, 2vw, 26px);
   margin-bottom: 5px;
 }
 
@@ -119,6 +119,7 @@ text-for-first{
 .foot {
   margin-left: 30px;
   border-top: 4px solid #efeffb;
+  font-size: clamp(9px, 1vw, 12px);
 }
 @media (max-width: 850px) {
   .header{
@@ -127,6 +128,9 @@ text-for-first{
     align-items: center;
     padding-left: 0;
 
+  }
+  .head-text-style{
+    line-height: 21.16px;
   }
   .firstBlock{
     flex-direction: column; 
@@ -147,10 +151,9 @@ text-for-first{
   .left-text,
   .topBlock{
 
-    border-right: none;
+    border: none;
     padding-bottom: 10px;
-    border-bottom: 4px solid #efeffb;
-    margin-bottom: 20px;
+    border-bottom: 2px solid #efeffb;
   }
   .foot {
     border-top:none;
